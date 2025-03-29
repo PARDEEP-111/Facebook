@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+
+    padding: 0px;
+
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.login-page {
+    margin-top: 150px;
+    height: 73vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.logo {
+    position: relative;
+    right: 25px;
+    /* top: 40px; */
+    margin-top: 30px;
+    /* height: 100px; */
+    width: 290px;
+}
+
+.moto {
+    font-size: 28px;
+    font-weight: lighter;
+    height: 100px;
+    margin: 0;
+}
+
+.box {
+    width: 500px;
+    height: 335px;
+}
+
+.box1 {
+    width: 500px;
+    height: 335px;
+    margin-right: 50px;
+
+}
+
+.box2 {
+    box-shadow: 5px 5px 20px rgb(189, 201, 204);
+    border-radius: 5px;
+    width: 395px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#password {
+
+    padding-left: 15px;
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 179, 179);
+}
+
+#email {
+    padding-left: 15px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.log-in {
+    width: 360px;
+    height: 50px;
+    background-color: #0866ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 900;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Forgotten-password {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 350px;
+    margin: 10px;
+}
+
+.new-account {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    background-color: #58c052;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+::placeholder {
+    font-size: 17px;
+    color: rgb(216, 212, 212);
+
+}
+
+.creat-a-page {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.for-business {
+    position: relative;
+    top: 60px;
+}
+
+
+/* this is for link bar at the bottome or footer. */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 30px;
+
+}
+
+.link-bar {
+    width: 60vw;
+    padding: 5px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+
+}
+
+.footer a {
+    font-size: 12px;
+}
+
+
+@media (max-width:989px) {
+
+
+    .box1 {
+
+        width: 180px;
+
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .moto {
+        font-size: 20px;
+    }
+
+
+    #password {
+        width: 280px;
+    }
+
+    #email {
+        width: 280px;
+    }
+
+    .log-in {
+        width: 280px;
+    }
+}
+
+@media (max-width:450px) {
+    .container {
+        justify-content: center;
+    }
+
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        width: 300px;
+    }
+
+    .login-page {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .container {
+        height: 90vh;
+        width: 100vw;
+    }
+
+    #email {
+        width: 260px;
+    }
+
+    #password {
+        width: 260px;
+    }
+
+    .log-in {
+        width: 260px;
+    }
+
+    .link-bar {
+        height: 10vh;
+        width: 100vw;
+        flex-shrink: 22;
+    }
+
+    hr {
+        width: 210px;
+    }
+
+    .lan {
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
